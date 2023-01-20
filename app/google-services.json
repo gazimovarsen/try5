@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "533464658105",
+    "project_id": "startoveragane-da6bb",
+    "storage_bucket": "startoveragane-da6bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533464658105:android:a55ad0e9766b90c622ab68",
+        "android_client_info": {
+          "package_name": "com.example.try5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533464658105-9aqcojftf2pu9306p6q9a7feit5gm9mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.try5",
+            "certificate_hash": "210f23ff8ae68a1563dd9fbd1408e6fb305ef16d"
+          }
+        },
+        {
+          "client_id": "533464658105-ed74c920vn0n1et7f1pfmu1bd9c2pudr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP1xQLP9zlvBHyQaa0hHEohJizCMsvPQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533464658105-ed74c920vn0n1et7f1pfmu1bd9c2pudr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

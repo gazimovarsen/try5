@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    tools:context=".ProfileActivity">
+
+    <EditText
+        android:id="@+id/nameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your name to sign up"
+        android:minHeight="48dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/ageRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your age to sign up"
+        android:minHeight="48dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/interestRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type your interest to sign up"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Switch
+        android:id="@+id/sexRegisterSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:hint="Off for male, On for female"
+        android:minHeight="48dp"
+        android:textOff="Male"
+        android:textOn="Female" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up!"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:visibility="gone"
+        android:text="Hello there, " />
+    <Button
+        android:id="@+id/mapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        android:text="Let's find someone!" />
+
+    <TextView
+        android:id="@+id/youAreLoggedInAs"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="You are logged in as " />
+    <TextView
+        android:id="@+id/emailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        style="@style/TextAppearance.MaterialComponents.Body1" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/swipesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe!" />
+
+</LinearLayout>

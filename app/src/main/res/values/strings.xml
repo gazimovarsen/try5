@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MeetU</string>
+    <string name="no_account">No account? <b>Sign up!</b></string>
+    <string name="title_activity_map">Map</string>
+</resources>
